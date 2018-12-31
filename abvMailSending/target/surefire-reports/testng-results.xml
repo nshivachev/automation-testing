@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="158620" started-at="2016-09-19T00:24:53Z" finished-at="2016-09-19T00:27:31Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="158620" started-at="2016-09-19T00:24:53Z" finished-at="2016-09-19T00:27:31Z">
+      <class name="bg.abv.Testcases.InvalidReceiverMailTest">
+        <test-method status="PASS" signature="checkInvalidMailWarning()[pri:0, instance:bg.abv.Testcases.InvalidReceiverMailTest@1f256fa]" name="checkInvalidMailWarning" duration-ms="23032" started-at="2016-09-19T03:24:53Z" finished-at="2016-09-19T03:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInvalidMailWarning -->
+      </class> <!-- bg.abv.Testcases.InvalidReceiverMailTest -->
+      <class name="bg.abv.Testcases.MissingThemeTest">
+        <test-method status="PASS" signature="checkSendingNoTheme()[pri:0, instance:bg.abv.Testcases.MissingThemeTest@cd8737]" name="checkSendingNoTheme" duration-ms="27946" started-at="2016-09-19T03:25:36Z" finished-at="2016-09-19T03:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSendingNoTheme -->
+      </class> <!-- bg.abv.Testcases.MissingThemeTest -->
+      <class name="bg.abv.Testcases.MissingReceiverTest">
+        <test-method status="PASS" signature="checkNoReceiverMessage()[pri:0, instance:bg.abv.Testcases.MissingReceiverTest@f71333]" name="checkNoReceiverMessage" duration-ms="19802" started-at="2016-09-19T03:25:16Z" finished-at="2016-09-19T03:25:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNoReceiverMessage -->
+      </class> <!-- bg.abv.Testcases.MissingReceiverTest -->
+      <class name="bg.abv.Testcases.ValidMailSendingTest">
+        <test-method status="PASS" signature="checkSendingValidMail()[pri:0, instance:bg.abv.Testcases.ValidMailSendingTest@1adae5d]" name="checkSendingValidMail" duration-ms="44628" started-at="2016-09-19T03:26:47Z" finished-at="2016-09-19T03:27:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSendingValidMail -->
+      </class> <!-- bg.abv.Testcases.ValidMailSendingTest -->
+      <class name="bg.abv.Testcases.MultipleReceiversTest">
+        <test-method status="PASS" signature="checkSendingMultipleReceivers()[pri:0, instance:bg.abv.Testcases.MultipleReceiversTest@1969fbe]" name="checkSendingMultipleReceivers" duration-ms="43175" started-at="2016-09-19T03:26:03Z" finished-at="2016-09-19T03:26:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSendingMultipleReceivers -->
+      </class> <!-- bg.abv.Testcases.MultipleReceiversTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
